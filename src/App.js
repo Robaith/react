@@ -6,8 +6,17 @@ import Welcome from './components/Welcome';
 function App() {
   return (
     <div className="App">
-      <Greet />
-      <Welcome />
+      <Greet name="Robaith" gfName="abc" >
+        <p>This is children props</p>
+      </Greet>
+      <Greet name="Joy" gfName="nai" >
+        <button>Submit</button>
+      </Greet>
+      <Greet name="Nibir" gfName="bolbona" />
+
+      <Welcome name="Robaith" gfName="abc" />
+      <Welcome name="Joy" gfName="nai" />
+      <Welcome name="Nibir" gfName="bolbona" />
     </div>
   );
 }
