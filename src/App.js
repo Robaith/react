@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
+import Message from './components/Message';
 
 function App() {
   return (
     <div className="App">
-      <Greet name="Robaith" gfName="abc" >
+      <Message />
+      {/* <Greet name="Robaith" gfName="abc" >
         <p>This is children props</p>
       </Greet>
       <Greet name="Joy" gfName="nai" >
@@ -16,7 +18,7 @@ function App() {
 
       <Welcome name="Robaith" gfName="abc" />
       <Welcome name="Joy" gfName="nai" />
-      <Welcome name="Nibir" gfName="bolbona" />
+      <Welcome name="Nibir" gfName="bolbona" /> */}
     </div>
   );
 }
