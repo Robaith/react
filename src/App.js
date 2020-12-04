@@ -10,32 +10,13 @@ import EventBind from './components/EventBind';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting';
 import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Form from './components/Form';
 
 function App() {
   return (
     <div className="App">
-      <NameList />
-      {/* <UserGreeting /> */}
-      {/* <ParentComponent /> */}
-      {/* <EventBind /> */}
-      {/* <FunctionClick />
-      <ClassClick /> */}
-      {/* <Counter /> */}
-      {/* <Message /> */}
-
-      {/* <Greet name="Nibir" gfName="bolbona" />
-      <Welcome name="Joy" gfName="nai" /> */}
-      {/* <Greet name="Robaith" gfName="abc" >
-        <p>This is children props</p>
-      </Greet>
-      <Greet name="Joy" gfName="nai" >
-        <button>Submit</button>
-      </Greet>
-      <Greet name="Nibir" gfName="bolbona" />
-
-      <Welcome name="Robaith" gfName="abc" />
-      <Welcome name="Joy" gfName="nai" />
-      <Welcome name="Nibir" gfName="bolbona" /> */}
+      <Form />
     </div>
   );
 }
