@@ -15,12 +15,12 @@ import Form from './components/Form';
 import LifeCycleA from './components/LifeCycleA';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import RefsDemo from './components/RefsDemo';
 
 function App() {
   return (
     <div className="App">
-      <Table />
-      {/* <FragmentDemo /> */}
+      <RefsDemo />
     </div>
   );
 }
