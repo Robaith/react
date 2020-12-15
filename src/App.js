@@ -17,11 +17,14 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import RefsDemo from './components/RefsDemo';
 import PortalsDemo from './components/PortalsDemo';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 
 function App() {
   return (
     <div className="App">
-      <PortalsDemo />
+      <ClickCounter />   
+      <HoverCounter />   
     </div>
   );
 }
